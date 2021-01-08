@@ -1,0 +1,5 @@
+<section>
+    <div *ngFor="let c of characters; let i = index">
+        <app-character-card [character]="c" [idx]="i"></app-character-card>
+    </div>
+</section>

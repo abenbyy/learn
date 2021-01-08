@@ -1,0 +1,37 @@
+@import '../../styles/colors.scss';
+@import '../../styles//mixins.scss';
+
+a{
+    color: $text-color;
+}
+.ch{
+    margin: 10px;
+    padding: 10px;
+    background-color: $primary;
+    width: 10%;
+    min-width: calc(300px + 0.2em);
+
+    @include dfjccaic();
+    
+    flex-direction: column;
+    text-align: center;
+
+    border-radius: 20px;
+
+    &-img{
+        position: relative;
+        width: fit-content;
+
+        &-card{
+            width: 100px;
+            height: 100px;
+        }
+        &-element{
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            top:0;
+            right: 0;
+        }
+    }
+}

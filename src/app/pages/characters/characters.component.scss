@@ -1,0 +1,11 @@
+@import '../../styles/colors.scss';
+@import '../../styles//mixins.scss';
+
+section{
+    background-color: $accent;
+    @include dfjccaic();
+    flex-wrap: wrap;
+    color: $text-color;
+}
+
+
